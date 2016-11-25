@@ -8,26 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		260BD4EE1DBD495C006EB210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD4ED1DBD495C006EB210 /* AppDelegate.swift */; };
-		260BD4F01DBD495C006EB210 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 260BD4EF1DBD495C006EB210 /* GameScene.sks */; };
-		260BD4F21DBD495C006EB210 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 260BD4F11DBD495C006EB210 /* Actions.sks */; };
 		260BD4F41DBD495C006EB210 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD4F31DBD495C006EB210 /* GameScene.swift */; };
 		260BD4F61DBD495C006EB210 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD4F51DBD495C006EB210 /* GameViewController.swift */; };
 		260BD4F91DBD495C006EB210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260BD4F71DBD495C006EB210 /* Main.storyboard */; };
 		260BD4FB1DBD495C006EB210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260BD4FA1DBD495C006EB210 /* Assets.xcassets */; };
 		260BD4FE1DBD495C006EB210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260BD4FC1DBD495C006EB210 /* LaunchScreen.storyboard */; };
+		260BD5061DBD4B47006EB210 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 260BD5051DBD4B47006EB210 /* Sounds */; };
+		260BD5081DBD4B75006EB210 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 260BD5071DBD4B75006EB210 /* Sprites.atlas */; };
+		260BD50A1DBD56F3006EB210 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD5091DBD56F3006EB210 /* Array2D.swift */; };
+		261D713F1DDA6AD7003F9DAE /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D713E1DDA6AD7003F9DAE /* SquareShape.swift */; };
+		261D71411DDA6AFE003F9DAE /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D71401DDA6AFE003F9DAE /* TShape.swift */; };
+		261D71431DDA6C91003F9DAE /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D71421DDA6C91003F9DAE /* LineShape.swift */; };
+		261D71451DDA6CAD003F9DAE /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D71441DDA6CAD003F9DAE /* LShape.swift */; };
+		261D71471DDA6CC6003F9DAE /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D71461DDA6CC6003F9DAE /* JShape.swift */; };
+		261D71491DDA6CE8003F9DAE /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D71481DDA6CE8003F9DAE /* SShape.swift */; };
+		261D714B1DDA6D0B003F9DAE /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D714A1DDA6D0B003F9DAE /* ZShape.swift */; };
+		261D714D1DDA6E0E003F9DAE /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D714C1DDA6E0E003F9DAE /* Swiftris.swift */; };
+		261D714F1DDA6EE9003F9DAE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D714E1DDA6EE9003F9DAE /* Extensions.swift */; };
+		2626154B1DDC2011007D0E72 /* iPhoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626154A1DDC2011007D0E72 /* iPhoneType.swift */; };
+		263EA79D1DE08CEA00192197 /* SelfFittingUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263EA79C1DE08CEA00192197 /* SelfFittingUILabel.swift */; };
+		263EA79F1DE0C1E700192197 /* SocialClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263EA79E1DE0C1E700192197 /* SocialClasses.swift */; };
+		263EA7A11DE0F5F700192197 /* Background-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 263EA7A01DE0F5F700192197 /* Background-3x.png */; };
+		263EA7A31DE1001700192197 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263EA7A21DE1001700192197 /* SettingsTableViewController.swift */; };
+		2646281B1DC3D8A600AC1C27 /* block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2646281A1DC3D8A600AC1C27 /* block.swift */; };
+		26B338841DDFA31B0030AD33 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B338831DDFA31B0030AD33 /* StartViewController.swift */; };
+		26BB21931DD02AB000605592 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BB21921DD02AB000605592 /* Shape.swift */; };
+		26E8E0AB1DE1082B00556BBA /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E8E0AA1DE1082B00556BBA /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		260BD4EA1DBD495C006EB210 /* tetris-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tetris-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		260BD4ED1DBD495C006EB210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		260BD4EF1DBD495C006EB210 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		260BD4F11DBD495C006EB210 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		260BD4F31DBD495C006EB210 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		260BD4F51DBD495C006EB210 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		260BD4F81DBD495C006EB210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		260BD4FA1DBD495C006EB210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		260BD4FD1DBD495C006EB210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		260BD4FF1DBD495C006EB210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260BD5051DBD4B47006EB210 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		260BD5071DBD4B75006EB210 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		260BD5091DBD56F3006EB210 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		261D713E1DDA6AD7003F9DAE /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		261D71401DDA6AFE003F9DAE /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		261D71421DDA6C91003F9DAE /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		261D71441DDA6CAD003F9DAE /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		261D71461DDA6CC6003F9DAE /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		261D71481DDA6CE8003F9DAE /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		261D714A1DDA6D0B003F9DAE /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		261D714C1DDA6E0E003F9DAE /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
+		261D714E1DDA6EE9003F9DAE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2626154A1DDC2011007D0E72 /* iPhoneType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhoneType.swift; sourceTree = "<group>"; };
+		263EA79C1DE08CEA00192197 /* SelfFittingUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfFittingUILabel.swift; sourceTree = "<group>"; };
+		263EA79E1DE0C1E700192197 /* SocialClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialClasses.swift; sourceTree = "<group>"; };
+		263EA7A01DE0F5F700192197 /* Background-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-3x.png"; sourceTree = "<group>"; };
+		263EA7A21DE1001700192197 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		2646281A1DC3D8A600AC1C27 /* block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = block.swift; sourceTree = "<group>"; };
+		26B338831DDFA31B0030AD33 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		26BB21921DD02AB000605592 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		26E8E0AA1DE1082B00556BBA /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +98,60 @@
 		260BD4EC1DBD495C006EB210 /* tetris-clone */ = {
 			isa = PBXGroup;
 			children = (
-				260BD4ED1DBD495C006EB210 /* AppDelegate.swift */,
-				260BD4EF1DBD495C006EB210 /* GameScene.sks */,
-				260BD4F11DBD495C006EB210 /* Actions.sks */,
+				262615491DDC1FDB007D0E72 /* Extensions and Classes */,
+				261D714C1DDA6E0E003F9DAE /* Swiftris.swift */,
 				260BD4F31DBD495C006EB210 /* GameScene.swift */,
-				260BD4F51DBD495C006EB210 /* GameViewController.swift */,
+				2646281A1DC3D8A600AC1C27 /* block.swift */,
+				263EA7A01DE0F5F700192197 /* Background-3x.png */,
+				26BB21941DD063DD00605592 /* Shapes */,
+				260BD5091DBD56F3006EB210 /* Array2D.swift */,
 				260BD4F71DBD495C006EB210 /* Main.storyboard */,
+				263EA7A41DE1002800192197 /* ViewController */,
+				260BD4ED1DBD495C006EB210 /* AppDelegate.swift */,
+				260BD5071DBD4B75006EB210 /* Sprites.atlas */,
+				260BD5051DBD4B47006EB210 /* Sounds */,
 				260BD4FA1DBD495C006EB210 /* Assets.xcassets */,
 				260BD4FC1DBD495C006EB210 /* LaunchScreen.storyboard */,
 				260BD4FF1DBD495C006EB210 /* Info.plist */,
 			);
 			path = "tetris-clone";
+			sourceTree = "<group>";
+		};
+		262615491DDC1FDB007D0E72 /* Extensions and Classes */ = {
+			isa = PBXGroup;
+			children = (
+				261D714E1DDA6EE9003F9DAE /* Extensions.swift */,
+				2626154A1DDC2011007D0E72 /* iPhoneType.swift */,
+				263EA79C1DE08CEA00192197 /* SelfFittingUILabel.swift */,
+				263EA79E1DE0C1E700192197 /* SocialClasses.swift */,
+				26E8E0AA1DE1082B00556BBA /* Styles.swift */,
+			);
+			name = "Extensions and Classes";
+			sourceTree = "<group>";
+		};
+		263EA7A41DE1002800192197 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				26B338831DDFA31B0030AD33 /* StartViewController.swift */,
+				263EA7A21DE1001700192197 /* SettingsTableViewController.swift */,
+				260BD4F51DBD495C006EB210 /* GameViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		26BB21941DD063DD00605592 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				26BB21921DD02AB000605592 /* Shape.swift */,
+				261D713E1DDA6AD7003F9DAE /* SquareShape.swift */,
+				261D71401DDA6AFE003F9DAE /* TShape.swift */,
+				261D71421DDA6C91003F9DAE /* LineShape.swift */,
+				261D71441DDA6CAD003F9DAE /* LShape.swift */,
+				261D71461DDA6CC6003F9DAE /* JShape.swift */,
+				261D71481DDA6CE8003F9DAE /* SShape.swift */,
+				261D714A1DDA6D0B003F9DAE /* ZShape.swift */,
+			);
+			name = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,11 +214,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263EA7A11DE0F5F700192197 /* Background-3x.png in Resources */,
 				260BD4F91DBD495C006EB210 /* Main.storyboard in Resources */,
-				260BD4F01DBD495C006EB210 /* GameScene.sks in Resources */,
 				260BD4FB1DBD495C006EB210 /* Assets.xcassets in Resources */,
+				260BD5061DBD4B47006EB210 /* Sounds in Resources */,
 				260BD4FE1DBD495C006EB210 /* LaunchScreen.storyboard in Resources */,
-				260BD4F21DBD495C006EB210 /* Actions.sks in Resources */,
+				260BD5081DBD4B75006EB210 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,9 +230,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2626154B1DDC2011007D0E72 /* iPhoneType.swift in Sources */,
+				261D71451DDA6CAD003F9DAE /* LShape.swift in Sources */,
+				261D713F1DDA6AD7003F9DAE /* SquareShape.swift in Sources */,
+				263EA7A31DE1001700192197 /* SettingsTableViewController.swift in Sources */,
 				260BD4F41DBD495C006EB210 /* GameScene.swift in Sources */,
+				261D71471DDA6CC6003F9DAE /* JShape.swift in Sources */,
+				26BB21931DD02AB000605592 /* Shape.swift in Sources */,
+				2646281B1DC3D8A600AC1C27 /* block.swift in Sources */,
+				261D71431DDA6C91003F9DAE /* LineShape.swift in Sources */,
+				261D71491DDA6CE8003F9DAE /* SShape.swift in Sources */,
+				261D71411DDA6AFE003F9DAE /* TShape.swift in Sources */,
+				26B338841DDFA31B0030AD33 /* StartViewController.swift in Sources */,
+				261D714D1DDA6E0E003F9DAE /* Swiftris.swift in Sources */,
+				261D714F1DDA6EE9003F9DAE /* Extensions.swift in Sources */,
+				260BD50A1DBD56F3006EB210 /* Array2D.swift in Sources */,
+				26E8E0AB1DE1082B00556BBA /* Styles.swift in Sources */,
 				260BD4F61DBD495C006EB210 /* GameViewController.swift in Sources */,
+				261D714B1DDA6D0B003F9DAE /* ZShape.swift in Sources */,
+				263EA79D1DE08CEA00192197 /* SelfFittingUILabel.swift in Sources */,
 				260BD4EE1DBD495C006EB210 /* AppDelegate.swift in Sources */,
+				263EA79F1DE0C1E700192197 /* SocialClasses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +374,7 @@
 				DEVELOPMENT_TEAM = 7253U9FQVY;
 				INFOPLIST_FILE = "tetris-clone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forstner.tetris-clone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forstner.Steinherbst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -287,7 +387,7 @@
 				DEVELOPMENT_TEAM = 7253U9FQVY;
 				INFOPLIST_FILE = "tetris-clone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forstner.tetris-clone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forstner.Steinherbst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -312,6 +412,7 @@
 				260BD5041DBD495C006EB210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
